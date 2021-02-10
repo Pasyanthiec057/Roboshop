@@ -1,7 +1,7 @@
 #!/bin/bash
 Component=Mongo
 
-source  common.sh
+source  ./common.sh
 
 Info "Setup Mongo"
 Info "Installing Mongo"
