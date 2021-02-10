@@ -2,7 +2,7 @@
 
 Component=Frontend
 
-source Roboshop/common.sh
+source common.sh
 
 
 Info "Setup frontend component"
