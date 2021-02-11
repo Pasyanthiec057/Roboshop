@@ -12,6 +12,7 @@ echo -e  "[\e[31mFAIL\e[0m]   [\e[1;31m${Component}\e[0m] [\e[1;31m$(date "+%F %
 User_Id=$(uid -u)
 case $User_Id in
   0)
+    echo "$User_Id"
     true
     ;;
   *)
