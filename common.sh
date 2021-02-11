@@ -10,6 +10,7 @@ Fail(){
 echo -e  "[\e[31mFAIL\e[0m]   [\e[1;31m${Component}\e[0m] [\e[1;31m$(date "+%F %T")\e[0m] \e[1;31m $1 installation failed \e[0m"
 }
 mkdir ulog
+cd ulog
 touch robo.log
 Out_Path=/ulog/robo.log
 rm -f $Out_Path
