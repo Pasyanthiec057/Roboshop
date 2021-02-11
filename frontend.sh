@@ -29,7 +29,7 @@ Res $? "Downloading Artifacts"
 
 Info "Deploy in Nginx Default Location"
 rm -rf /usr/share/nginx/html/*
-unzip /tmp/frontend.zip
+unzip /tmp/Frontend.zip
 mv static/* .
 rm -rf static README.md
 mv localhost.conf /etc/nginx/default.d/roboshop.conf
