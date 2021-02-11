@@ -20,6 +20,6 @@ case $User_Id in
     ;;
   *)
     echo -e "\e[31mYou have to a root user to perform this operation\e[0m...."
-    exit 1
+    #exit 1
     ;;
 esac
