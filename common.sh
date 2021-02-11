@@ -13,7 +13,7 @@ echo -e  "[\e[31mFAIL\e[0m]   [\e[1;31m${Component}\e[0m] [\e[1;31m$(date "+%F %
 #cd robolog
 #touch robo.log
 #
-Out_Path=/temp/robo.log
+Out_Path=/tmp/robo.log
 rm -f $Out_Path
 
 User_Id=$(id -u)
