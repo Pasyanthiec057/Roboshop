@@ -36,5 +36,5 @@ esac
 }
 
 Download(){
-  curl -s  -o  /tmp/${Component}.zip $1 &>> $Out_Path
+  curl -s -o /tmp/${Component}.zip $1 &>> $Out_Path
 }

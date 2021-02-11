@@ -27,15 +27,16 @@ Res $? "Downloading Artifacts"
 # rm -rf static README.md
 # mv localhost.conf /etc/nginx/default.d/roboshop.conf
 
-Info "Removing old html default files"
-rm -rf /usr/share/nginx/html/*
-Res $? "Removing old html default files"
-
-Info "Unzip the artifacts"
-unzip /tmp/Frontend.zip
-mv /tmp/static/* .
-#rm -rf static README.md
-mv /tmp/localhost.conf /etc/nginx/default.d/roboshop.conf
-Res $? "Deployment"
+#Info "Removing old html default files"
+#cd /usr/share/nginx/html
+#rm -rf *
+#Res $? "Removing old html default files"
+#
+#Info "Unzip the artifacts"
+#unzip /tmp/Frontend.zip
+#mv /tmp/static/* .
+##rm -rf static README.md
+#mv localhost.conf /etc/nginx/default.d/roboshop.conf
+#Res $? "Deployment"
 
 
