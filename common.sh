@@ -9,7 +9,7 @@ echo -e  "[\e[32mSUCCESS\e[0m][\e[1;35m ${Component}\e[0m] [\e[1;36m$(date "+%F 
 Fail(){
 echo -e  "[\e[31mFAIL\e[0m]   [\e[1;31m${Component}\e[0m] [\e[1;31m$(date "+%F %T")\e[0m] \e[1;31m $1 installation failed \e[0m"
 }
-Out_Path=\temp\out
+Out_Path=/temp/out
 rm -r $Out_Path
 
 User_Id=$(id -u)
@@ -31,7 +31,7 @@ Res(){
     *)
       Fail "$2"
       ;;
-  esac
+esac
 
 
 }
