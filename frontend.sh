@@ -33,9 +33,9 @@ Res $? "Removing old html default files"
 
 Info "Unzip the artifacts"
 unzip /tmp/Frontend.zip
-mv static/* .
-rm -rf static README.md
-mv localhost.conf /etc/nginx/default.d/roboshop.conf
+mv /tmp/static/* .
+#rm -rf static README.md
+mv /tmp/localhost.conf /etc/nginx/default.d/roboshop.conf
 Res $? "Deployment"
 
 
