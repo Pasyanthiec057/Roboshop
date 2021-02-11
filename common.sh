@@ -9,10 +9,7 @@ Success(){
 Fail(){
   echo -e  "[\e[1;31mFAIL\e[0m  [\e[1;31m${Component}\e[0m] [\e[1;31m$(date "+%F %T")\e[0m] \e[1;31m$1  failed \e[0m"
 }
-#mkdir robolog
-#cd robolog
-#touch robo.log
-#
+
 Out_Path=/tmp/rob.log
 rm -f $Out_Path
 
